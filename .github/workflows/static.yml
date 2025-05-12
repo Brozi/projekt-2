@@ -36,6 +36,9 @@ jobs:
         run: npm install
         working-directory: ./ 
 
+      - name: Install Tailwind
+        run: npm install tailwindcss @tailwindcss/vite
+
       - name: Build the project
         run: npm run build -- --base=/projekt-2/
 
