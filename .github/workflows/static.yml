@@ -42,9 +42,6 @@ jobs:
       - name: Build the project
         run: npm run build -- --base=/projekt-2/
 
-      - name: Run Dev
-        run: npm run dev
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
